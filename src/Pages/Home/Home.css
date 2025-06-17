@@ -1,4 +1,8 @@
-
+.productContainer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 
 .card {
     width: 300px;
@@ -7,6 +11,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     transition: transform 0.3s;
+    margin-bottom: 10px;
 }
 
 .card:hover {
